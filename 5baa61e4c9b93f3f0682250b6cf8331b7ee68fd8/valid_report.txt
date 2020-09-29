@@ -1,5 +1,0 @@
-Validation Report (generated on https://validator.w3.org/)
-
-Document checking completed. No errors or warnings to show.
-Used the HTML parser.
-Total execution time 5 milliseconds.
