@@ -1,0 +1,81 @@
+
+.headline:after{
+	display:block;
+	font-family: Raleway, sans-serif;
+	font-size:40px;
+	line-height: 0.5;
+	content: 'Aadhithya Anbu Ganesan,';
+	text-shadow: 1px 1px 4px #494949 ;
+	padding-left:20%;
+	padding-top:0%;
+}
+
+.headline:hover:after{
+	font-family: Arima Madurai, cursive;
+	font-weight: bold;
+    content:'ஆதித்யா அன்புகணேசன், ';
+	text-shadow: 1px 1px 4px #494949 ;
+	font-size:40px;
+}
+
+.subtitle{
+	display:block;
+	margin:10px 0px 0px 145px;
+	font-style: italic;
+	padding-left:39%;
+	font-size:30px;
+}
+
+header{
+	background-image: linear-gradient(#ec1823, #f15059, #f4767d, white);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:9% 0;
+}
+
+body{
+	margin:0 auto;
+}
+
+body .main_content{
+	display:inline-block;
+	margin:auto;
+	padding-top:5%;
+	padding-bottom:5%;
+	padding-right:20%;
+	padding-left:20%;
+}
+
+td{
+	font-size:16px;
+}
+
+tr#content{
+	padding:5%
+}
+
+li{
+	padding:5px 10px;
+}
+
+h2#para_title{
+	font-family: Helvetica, sans-serif;
+	font-weight: 600
+}
+
+#caption{
+	font-family: Helvetica, sans-serif;
+	font-size:70%
+}
+#name_table{
+	border-collapse:collapse;
+	border: 1px solid black;
+	padding:5px;
+}
+
+#navlinks{
+	display:flex;
+	justify-content: center;
+	list-style:none;
+	padding:1px 1px;
+}

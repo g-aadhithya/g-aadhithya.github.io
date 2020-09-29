@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Technical Report</title>
+</head>
+
+<body style= "margin-left:200px; margin-right:200px">
+<h1 style= text-align:center> Technical Report </h1>
+<p style= text-align:center> Aadhithya Anbu Ganesan (500960159) </p>
+
+<h3>HTML Code for main page:</h3>
+<div style= left-margin:100px;right-margin:100px>
+<pre>
+&lt!DOCTYPE html&gt
+&lthtml lang="en"&gt
+&lthead&gt
+&ltmeta charset="UTF-8"&gt
+
+&lttitle&gtLAB 01 (Aadhithya Anbu Ganesan)&lt/title&gt
+
+&lt!-- Internal CSS --&gt
+&ltstyle&gt
+body {background-color:#41435A;margin-left:300px; margin-right:300px; margin-top:150px; margin-bottom:150px}
+h1 {color:white; font-family:helvetica; font-size:300%; text-align:center; text-shadow: 2px 2px 7px black;}
+h2 {font-family:serif; font-size:120%; color:#E9EBF9; text-align:center; line-height:1%; font-weight:100;}
+h3 {font-family: Verdana; font-size: 120%; color:#E1E2E9}
+h4 {font-family: Verdana; font-size: 80%; color:#E1E2E9;}
+p {color: #E9EBF9;}
+table, tr {margin:10px; padding:5px; border-spacing:100px}
+ul{display: table;
+  margin: 0 auto;}
+li {color:#E9EBF9}
+a {color: #E9EBF9}
+&lt/style&gt
+&lt/head&gt
+
+&ltbody&gt
+&lta id="top"&gt&lt/a&gt &lt!-- Anchor for top of the page --&gt
+
+&lt!--Webpage title --&gt
+&lth1&gt some of my favorite films&lt/h1&gt
+&lth2&gt&lti&gtby aadhithya anbu ganesan (500960159)&lt/i&gt&lt/h2&gt
+&ltbr&gt&ltbr&gt&lthr&gt
+
+&lt!-- Each film is entered in a table row below this point --&gt
+&lttable style= width:100%&gt
+
+&lttr&gt
+&lttd&gt
+&lt!-- Example: Film poster --&gt
+&ltimg src="https://live.staticflickr.com/4661/25759217838_fbbb5a658b_b.jpg" 
+alt="A Separation" width=200 height=270&gt
+&lt/td&gt
+
+&lttd&gt
+&lt!-- Example: Film Description --&gt
+&lth3&gt A Separation (2011)&lt/h3&gt
+&ltp&gtA married couple are faced with a difficult 
+decision – to improve the life of their child by moving to another country or 
+to stay in Iran and look after a deteriorating parent who has Alzheimer’s 
+disease.&lt/p&gt
+&ltp&gt&ltstrong&gtDirector: &lt/strong&gt Asghar Farhadi&lt/p&gt
+&lt/td&gt
+&lt/tr&gt
+
+&lttr&gt
+&lttd&gt
+&ltimg src="https://upload.wikimedia.org/wikipedia/en/b/b6/Super_Deluxe_poster.jpg" 
+alt="Super Deluxe" width=200 height=266&gt
+&lt/td&gt
+
+&lttd&gt
+&lth3&gt Super Deluxe (2019)&lt/h3&gt
+&ltp&gtAn unfaithful newly-wed wife, an estranged father, a priest and an angry son 
+suddenly find themselves in the most unexpected predicaments, each poised to 
+experience their destiny, all on one fateful day.&lt/p&gt
+&ltp&gt&ltstrong&gtDirector: &lt/strong&gt Thiagarajan Kumararaja&lt/p&gt
+&lt/td&gt
+&lt/tr&gt
+
+&lttr&gt
+&lttd&gt
+&ltimg src="https://m.media-amazon.com/images/M/MV5BNWM2MDZmMDgtYjViOS00YzBmLWE4YzctMDMyYTQ2YTc4MmVkXkEy
+XkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg" 
+alt="Mulholland Drive" width=200 height=300&gt
+&lt/td&gt
+
+&lttd&gt
+&lth3&gt Mulholland Drive (2001)&lt/h3&gt
+&ltp&gtBlonde Betty Elms has only just arrived in Hollywood to become a movie star when 
+she meets an enigmatic brunette with amnesia. Meanwhile, as the two set off to solve the 
+second woman’s identity, filmmaker Adam Kesher runs into ominous trouble while casting 
+his latest project.&lt/p&gt
+&ltp&gt&ltstrong&gtDirector: &lt/strong&gt David Lynch&lt/p&gt
+&lt/td&gt
+&lt/tr&gt
+
+&lttr&gt
+&lttd&gt
+&ltimg src="https://images-na.ssl-images-amazon.com/images/I/51QKGRr-CVL._AC_.jpg" 
+alt="Interstellar" width=200 height=296&gt
+&lt/td&gt
+
+&lttd&gt
+&lth3&gt Interstellar (2014)&lt/h3&gt
+&ltp&gtInterstellar chronicles the adventures of a group of explorers who make use of a 
+newly discovered wormhole to surpass the limitations on human space travel and conquer the 
+vast distances involved in an interstellar voyage.&lt/p&gt
+&ltp&gt&ltstrong&gtDirector: &lt/strong&gt Christopher Nolan&lt/p&gt
+&lt/td&gt
+&lt/tr&gt
+&lt/table&gt
+
+&lthr&gt&ltbr&gt
+&lth3 style= text-align:center&gtHonorable Mentions&lt/h3&gt
+
+&ltul&gt
+&ltli&gtOzhivudivasathe Kali (2016)
+&ltli&gtPariyerum Perumal (2018)
+&ltli&gtManchester By The Sea (2016)
+&ltli&gtCinema Paradiso (1988)
+&lt/ul&gt
+&ltbr&gt
+
+&ltdiv style= text-align:center&gt
+&lta href="#top"&gt Back to top of the page&lt/a&gt
+&lt/div&gt
+&lt/body&gt
+&lt/html
+</pre><br>
+
+<h3>Password Protection:</h3>
+<p>I have used a simple method designed by <em><a href="https://github.com/scottishstoater/protected-github-pages">scottishtoaster</a></em> on GitHub to protect static pages with no server configuration. I uploaded the password protection html file as the index page for the website.</p><br>
+
+<h3>Comments on the Lab:</h3>
+<p>This lab is my first time using HTML extensively. Based on my desired design for the webpage, I discovered new tags such as <i>&ltstyle&gt</i> for internal CSS, and the <i>&lta&gt</i> tag for the 'top of page' anchor.</p>
+
+</body>
+</html>
