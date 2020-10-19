@@ -1,0 +1,125 @@
+#bg{
+	background-color:#004c9b;
+}
+
+iframe{
+	overflow:hidden;
+	height:900px;
+	width:900px;
+	border:none;
+}
+
+.menuitems span{
+	font-family: 'Anton'; 
+	font-size:20px;
+	letter-spacing:0.5px;
+}
+
+.menuitems a{
+	font-size: 17px;
+	font-style:bold;
+}
+
+.custom{
+	font-weight:bold;
+}
+
+.btn{
+	min-width:210px;
+}
+.content{
+	font-family:'Roboto';
+	font-size:12pt;
+}
+.content h1{
+	font-family:'Anton';
+	font-size:30pt;
+	text-align:center;
+	letter-spacing:2px;
+}
+
+#heading{
+	font-size:15pt;
+	font-style:italic;
+}
+
+#manual{
+	font-size:40px;
+	font-style:bold;
+}
+#pagetitle{
+	line-height:280%;
+}
+
+#menutext{
+	font-family:'Roboto';
+	font-size:12px;
+}
+
+#name{
+	font-family:'Roboto';
+	font-size:14px;
+	font-weight:bold;
+}
+
+#layer1{
+	position:absolute;
+	z-index:1;
+	background-color:#FC0;
+	height: 700px;
+	width:300px;
+	top: 40px;
+	left:70px;
+	padding-left:17px;
+	font-size:12px;
+}
+
+#layer2{
+	position:absolute;
+	z-index:2;
+	background-color:#d9d9d9;
+	height:auto;
+	width:940px;
+	top: 100px;
+	left: 320px;
+	padding:20px;
+}
+
+#effect{
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
